@@ -1,0 +1,25 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="My_shopWebApp.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Cqrs" Version="4.3.20" />
+    <PackageReference Include="FluentValidation.AspNetCore" Version="11.2.2" />
+    <PackageReference Include="LazZiya.ExpressLocalization" Version="4.0.4" />
+    <PackageReference Include="Microsoft.AspNet.WebApi.Client" Version="5.0.0" />
+    <PackageReference Include="Microsoft.IdentityModel.Tokens" Version="6.23.1" />
+    <PackageReference Include="System.IdentityModel.Tokens.Jwt" Version="5.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Shop_.Utilities\Shop_.Utilities.csproj" />
+    <ProjectReference Include="..\Shop_.ViewModels\Shop_.ViewModels.csproj" />
+  </ItemGroup>
+
+</Project>
